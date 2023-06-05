@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Source+Sans+Pro:wght@400;600;700&family=Style+Script&display=swap');
+
+* {
+  box-sizing: border-box;
+  }
+
+.logo{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Style Script', cursive;
+  font-size: 70px;
+  margin-left: 22%;
+  margin-top: 3%;
+  display: inline-block;
+  color: #00661D;
+}
+
+body{
+  background-image: url(./jasminum-auriculatum-flower-twig-with-wedding-card-white-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  color: khaki;
+}
+
+nav{
+  position: absolute;
+  display: inline-block;
+  flex-flow: nowrap;
+  left: 40%;
+  margin-left: 17%;
+  top: 8%;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: #965B08;
+}
+
+nav a:hover{
+  border-bottom: 2px solid khaki;
+  color: #965B08;
+}
+
+.content{
+ margin-left: 45%;
+ margin-top: 5%;
+ padding: 16px;
+ word-spacing: 25px;
+}
+
+.content-img{
+   height: 200px;
+   width: 90px;
+   margin-left: 55%;
+   margin-top: 40px;
+
+}
+.content-text{
+  text-align: center;
+  word-wrap: break-word;
+  color: #965B08;
+  width: 30%;
+  margin-left: 40%;
+}
+
+.content a{
+  text-decoration: none;
+  font-size: 30px;
+  padding: 15px 50px 15px 50px;
+  background: khaki;
+  border-radius: 12px; 
+  color: khaki;
+  background: #00661D;
+}
+
+.content a:hover {
+  background: #47995E;
+  padding: 17px 52px 17px 52px;
+
+}
+/* .corpo{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px antiquewhite;
+} */
+

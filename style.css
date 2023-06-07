@@ -28,7 +28,7 @@ nav{
   position: absolute;
   display: inline-block;
   flex-flow: nowrap;
-  left: 40%;
+  left: 37%;
   margin-left: 17%;
   top: 8%;
   padding: 20px;
@@ -47,17 +47,15 @@ nav a:hover{
 }
 
 .content{
- margin-left: 45%;
- margin-top: 5%;
+ margin-left: 40%;
  padding: 16px;
  word-spacing: 25px;
 }
 
 .content-img{
-   height: 200px;
+   height: 180px;
    width: 90px;
-   margin-left: 55%;
-   margin-top: 40px;
+   margin-left: 53%;
 
 }
 .content-text{
@@ -83,9 +81,3 @@ nav a:hover{
   padding: 17px 52px 17px 52px;
 
 }
-/* .corpo{
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px antiquewhite;
-} */
-

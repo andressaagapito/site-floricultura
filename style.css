@@ -39,6 +39,7 @@ nav{
 nav a{
   text-decoration: none;
   color: #965B08;
+  padding-right: 8px;
 }
 
 nav a:hover{
@@ -47,7 +48,7 @@ nav a:hover{
 }
 
 .content{
- margin-left: 40%;
+ margin-left: 38%;
  padding: 16px;
  word-spacing: 25px;
 }
@@ -55,7 +56,7 @@ nav a:hover{
 .content-img{
    height: 180px;
    width: 90px;
-   margin-left: 53%;
+   margin-left: 50%;
 
 }
 .content-text{
@@ -74,10 +75,55 @@ nav a:hover{
   border-radius: 12px; 
   color: khaki;
   background: #00661D;
+
 }
 
 .content a:hover {
   background: #47995E;
   padding: 17px 52px 17px 52px;
+
+}
+@media screen and (min-width: 400px) and (max-width:600px){
+  .logo{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 24%;
+  }
+ .content-text{
+    display: none;
+ }
+ nav{
+  display: inline-flex;
+  margin-top: 54px;
+  font-size: 15px;
+ }
+ .content-img{
+  height: 180px;
+  width: 90px;
+  margin-left: 37%;
+
+}
+ .content{
+  margin-left: 10%;
+  padding: 16px;
+  word-spacing: 25px;
+ }
+.content a{
+  display: inline;
+  font-size: 16px;
+  flex: 10%;
+  position: relative;
+  flex-flow: nowrap;
+  align-items: center;
+  margin: 0px;
+
+}
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media screen and (min-width: 992px) {
+  .logo{
+    margin-top: 2%;
+  }
 
 }
